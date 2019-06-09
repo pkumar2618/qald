@@ -3,7 +3,7 @@ import pandas as pd
 import nltk
 import pickle
 import numpy as np
-from helper_fn import sentence_preprocessing, pos_complex, list_type, count_type
+from helper_fn import sentence_preprocessing, pos_complex, list_type, count_type, ner_complex
 
 
 """
@@ -75,4 +75,24 @@ NER Tagging
 pickle_handle = open("pickle_df_processed", "rb")
 category_df = pickle.load(pickle_handle)
 pickle_handle.close()
-print(category_df)
+# print(category_df)
+
+category_df = category_df.set_index("qald_id", drop=False)
+for id_label in category_df.index:
+    sentence = category_df.at[id_label, "sentence_en"]
+    # print(sentence)
+    label_HME = ner_complex(sentence)
+    category_df.at[id_label, "ner-complex(H/M/E)"] = label_HME
+
+pickle_handle = open("pickle_df_processed", "wb")
+pickle.dump(category_df, pickle_handle)
+pickle_handle.close()
+# print(category_df)
+
+"""
+OpenIE-complex
+"""
+# pickle_handle = open("pickle_df_processed", "rb")
+# category_df = pickle.load(pickle_handle)
+# pickle_handle.close()
+# print(category_df)

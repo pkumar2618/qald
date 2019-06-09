@@ -2,6 +2,7 @@ import nltk
 # from nltk.tokenize import word_tokenize
 # from nltk.tag import pos_tag
 import re
+from nltk.tag.stanford import StanfordNERTagger
 
 def sentence_preprocessing(sentence):
     sentence = nltk.word_tokenize(sentence)
@@ -64,22 +65,30 @@ def count_type(sentence):
 
 
 def ner_complex(sentence):
-    pattern_nn = ["NN.*", "WP"]
-    pattern_nn_combined = "(" + ")|(".join(pattern_nn) + ")"
-    # print(pattern)
-    noun_count = 0
-    other_count = 0
-    for word_tag in pos_tagged_sentence:
-        # noun_tag = re.search(r'(NN.*)|(WP)', word_tag[1])
-        noun_tag = re.search(pattern_nn_combined, word_tag[1])
-        if noun_tag:
-            noun_count += 1
-        else:
-            other_count += 1
 
-    if noun_count > 3 and other_count > 0:
+    jar = './stanford-ner.jar'
+    model = './english.all.3class.distsim.crf.ser.gz'
+
+    # Prepare NER tagger with english model
+    ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
+
+    # Tokenize: Split sentence into words
+    words = nltk.word_tokenize(sentence)
+    # Run NER tagger on words
+    words_ner = ner_tagger.tag(words)
+    pattern_entity = ["LOCATION", "PERSON", "ORGANIZATION"]
+    pattern_entity_combined = "(" + ")|(".join(pattern_entity) + ")"
+    # # print(pattern)
+    entity_count = 0
+    for word_entity in words_ner:
+        entity = re.search(pattern_entity_combined, word_entity[1])
+        if entity:
+            entity_count += 1
+
+    if entity_count >= 5:
         return "hard"
-    elif noun_count == 3 and other_count > 0:
+    elif entity_count == 4:
         return "medium"
     else:
         return "easy"
+
