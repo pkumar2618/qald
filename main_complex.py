@@ -11,9 +11,12 @@ from helper_fn import sentence_preprocessing, pos_complex, noun_count, list_type
 creating pandas dataframe with qald id, sentence, pos-complex, ner-complex,
 OpenIE-complex, list type(Y/N), count_type(Y/N)
 """
-# dict_multilingual_question = json.load(open("qald-9-train-multilingual.json"))
-# category_df = pd.DataFrame(columns=["qald_id", "sentence_en", "pos-complex(H/M/E)", "ner-complex(H/M/E)",
-#                                        "OpenIE-complex(H/M/E)", "list_type(Y/N)", "count_type(Y/N)"])
+# # dict_multilingual_question = json.load(open("qald-9-train-multilingual.json"))
+# dict_multilingual_question = json.load(open("qald-9-test-multilingual.json"))
+# category_df = pd.DataFrame(columns=["qald_id", "sentence_en",
+#                                     "pos-tags", "noun_count", "pos-complex(H/M/E)",
+#                                     "ner-tags", "entity_count", "ner-complex(H/M/E)",
+#                                     "list_type(Y/N)", "count_type(Y/N)"])
 #
 # for item_obj in dict_multilingual_question["questions"]:
 #     for lang_obj in item_obj["question"]:
@@ -21,7 +24,8 @@ OpenIE-complex, list type(Y/N), count_type(Y/N)
 #             category_df = category_df.append({'qald_id': item_obj["id"], 'sentence_en':
 #             lang_obj["string"]}, ignore_index=True).fillna("tbd")
 # # print(category_df)
-# pickle_handle = open("pickle_df_raw", "wb")
+# # pickle_handle = open("pickle_df_train_raw", "wb")
+# pickle_handle = open("pickle_df_test_raw", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
 
@@ -32,7 +36,8 @@ pos-complex(E): when sentence has two or less NN/WP tags and 0+ not(NN) tag
 pos-complex(M): when sentence has 3 NN/WP tags and 1+ not(NN and WP) tags
 pos-complex(H): when sentence has 4 or more NN/WP tags and 1+ not(NN and WP) tags
 """
-# pickle_handle = open("pickle_df_raw", "rb")
+# # pickle_handle = open("pickle_df_train_raw", "rb")
+# pickle_handle = open("pickle_df_test_raw", "rb")
 # category_df = pickle.load(pickle_handle)
 # pickle_handle.close()
 # # # print(category_df)
@@ -40,43 +45,21 @@ pos-complex(H): when sentence has 4 or more NN/WP tags and 1+ not(NN and WP) tag
 # for id_label in category_df.index:
 #     sentence = sentence_preprocessing(category_df.at[id_label, "sentence_en"])
 #     # print(sentence)
-#     label_HME = pos_complex(sentence)
-#     category_df.at[id_label, "pos-complex(H/M/E)"] = label_HME
+#     tag_count_complexity = pos_complex(sentence)
+#     category_df.at[id_label, "pos-tags"] = tag_count_complexity[0]
+#     category_df.at[id_label, "noun_count"] = tag_count_complexity[1]
+#     category_df.at[id_label, "pos-complex(H/M/E)"] = tag_count_complexity[2]
 #
-# pickle_handle = open("pickle_df_processed", "wb")
+# # pickle_handle = open("pickle_df_train_processed", "wb")
+# pickle_handle = open("pickle_df_test_processed", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
-
-# noun count
-pickle_handle = open("pickle_df_processed", "rb")
-category_df = pickle.load(pickle_handle)
-pickle_handle.close()
-# print(category_df)
-
-category_df = category_df.set_index("qald_id", drop=False)
-series_noun_count = []
-for id_label in category_df.index:
-    sentence = sentence_preprocessing(category_df.at[id_label, "sentence_en"])
-    # print(sentence)
-    nn_count = noun_count(sentence)
-    series_noun_count.append(nn_count)
-
-category_df.insert(3, "noun-count", series_noun_count)
-category_df.to_csv("qald_en_pos_ner_list_count.csv", columns=["qald_id", "sentence_en", "pos-complex(H/M/E)",
-                                                              "noun-count", "ner-complex(H/M/E)", "list_type(Y/N)",
-                                                              "count_type(Y/N)"],
-                   index=False)
-
-pickle_handle = open("pickle_df_processed", "wb")
-pickle.dump(category_df, pickle_handle)
-pickle_handle.close()
-# print(category_df)
-
 
 """
 label sentence are 'list' type and 'count' type
 """
-# pickle_handle = open("pickle_df_processed", "rb")
+# # pickle_handle = open("pickle_df_train_processed", "rb")
+# pickle_handle = open("pickle_df_test_processed", "rb")
 # category_df = pickle.load(pickle_handle)
 # pickle_handle.close()
 # # print(category_df)
@@ -89,44 +72,49 @@ label sentence are 'list' type and 'count' type
 #     count_found = count_type(sentence)
 #     category_df.at[id_label, "count_type(Y/N)"] = count_found
 #
-# pickle_handle = open("pickle_df_processed", "wb")
+# # pickle_handle = open("pickle_df_train_processed", "wb")
+# pickle_handle = open("pickle_df_test_processed", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
-# # print(category_df)
+# print(category_df)
 
 
 """
 NER Tagging
 """
-# pickle_handle = open("pickle_df_processed", "rb")
-# category_df = pickle.load(pickle_handle)
-# pickle_handle.close()
-# # print(category_df)
+# pickle_handle = open("pickle_df_train_processed", "rb")
+pickle_handle = open("pickle_df_test_processed", "rb")
+category_df = pickle.load(pickle_handle)
+pickle_handle.close()
+# print(category_df)
 #
-# jar = './stanford-ner.jar'
-# model = './english.all.3class.distsim.crf.ser.gz'
-#
-# # Prepare NER tagger with english model
-# ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
+jar = './stanford-ner.jar'
+model = './english.all.3class.distsim.crf.ser.gz'
 
-# category_df = category_df.set_index("qald_id", drop=False)
-# for id_label in category_df.index:
-#     sentence = category_df.at[id_label, "sentence_en"]
-#
-#     # Tokenize: Split sentence into words
-#     words = nltk.word_tokenize(sentence)
-#
-#     # Run NER tagger on words
-#     words_ner = ner_tagger.tag(words)
-#     # print(words_ner)
-#
-#     label_HME = ner_complex(words_ner)
-#     category_df.at[id_label, "ner-complex(H/M/E)"] = label_HME
-#
-# pickle_handle = open("pickle_df_processed", "wb")
-# pickle.dump(category_df, pickle_handle)
-# pickle_handle.close()
-# # print(category_df)
+# Prepare NER tagger with english model
+ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
+
+category_df = category_df.set_index("qald_id", drop=False)
+for id_label in category_df.index:
+    sentence = category_df.at[id_label, "sentence_en"]
+
+    # Tokenize: Split sentence into words
+    words = nltk.word_tokenize(sentence)
+
+    # Run NER tagger on words
+    words_ner = ner_tagger.tag(words)
+    # print(words_ner)
+
+    ner_entity_complxity = ner_complex(words_ner)
+    category_df.at[id_label, "ner-tags"] = ner_entity_complxity[0]
+    category_df.at[id_label, "entity-count"] = ner_entity_complxity[1]
+    category_df.at[id_label, "ner-complex(H/M/E)"] = ner_entity_complxity[2]
+
+# pickle_handle = open("pickle_df_train_processed", "wb")
+pickle_handle = open("pickle_df_test_processed", "wb")
+pickle.dump(category_df, pickle_handle)
+pickle_handle.close()
+# print(category_df)
 
 """
 OpenIE-complex

@@ -4,13 +4,15 @@ import matplotlib.pyplot as plt
 from matplotlib import rc
 import pandas as pd
 
-pickle_handle = open("pickle_df_processed_bup", "rb")
+# pickle_handle = open("pickle_df_train_processed", "rb")
+pickle_handle = open("pickle_df_test_processed", "rb")
 category_df = pickle.load(pickle_handle)
 pickle_handle.close()
 # print(category_df)
-category_df.to_csv("qald_en_pos_ner_list_count.csv", columns=["qald_id", "sentence_en", "pos-complex(H/M/E)",
-                                                          "ner-complex(H/M/E)", "list_type(Y/N)", "count_type(Y/N)"],
-                   index=False)
+# category_df.to_csv("qald_en_train_pos_ner_list_count.csv", index=False)
+category_df.to_csv("qald_en_test_pos_ner_list_count.csv", index=False)
+# columns=["qald_id", "sentence_en", "pos-complex(H/M/E)",
+#                                                          "ner-complex(H/M/E)", "list_type(Y/N)", "count_type(Y/N)"],
 
 
 # y-axis in bold

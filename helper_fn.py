@@ -23,12 +23,32 @@ def pos_complex(pos_tagged_sentence):
         else:
             other_count += 1
 
-    if noun_count > 3 and other_count > 0:
-        return "hard"
-    elif noun_count == 3 and other_count > 0:
-        return "medium"
+    if noun_count > 4 and other_count > 0:
+        return pos_tagged_sentence, noun_count, "hard"
+
+    elif (noun_count == 3 or noun_count==4) and other_count > 0:
+        return pos_tagged_sentence, noun_count, "medium"
+
     else:
-        return "easy"
+        return pos_tagged_sentence, noun_count, "easy"
+
+
+def ner_complex(words_ner):
+    pattern_entity = ["LOCATION", "PERSON", "ORGANIZATION"]
+    pattern_entity_combined = "(" + ")|(".join(pattern_entity) + ")"
+    # # print(pattern)
+    entity_count = 0
+    for word_entity in words_ner:
+        entity = re.search(pattern_entity_combined, word_entity[1])
+        if entity:
+            entity_count += 1
+
+    if entity_count >= 4:
+        return words_ner, entity_count, "hard"
+    elif entity_count == 3 or entity_count == 2:
+        return words_ner, entity_count, "medium"
+    else:
+        return words_ner, entity_count, "easy"
 
 def noun_count(pos_tagged_sentence):
     pattern_nn = ["NN.*", "WP"]
@@ -45,7 +65,6 @@ def noun_count(pos_tagged_sentence):
             other_count += 1
 
     return noun_count
-
 
 def list_type(sentence):
     list_count = 0
@@ -78,22 +97,3 @@ def count_type(sentence):
         return "Y"
     else:
         return "N"
-
-
-def ner_complex(words_ner):
-    pattern_entity = ["LOCATION", "PERSON", "ORGANIZATION"]
-    pattern_entity_combined = "(" + ")|(".join(pattern_entity) + ")"
-    # # print(pattern)
-    entity_count = 0
-    for word_entity in words_ner:
-        entity = re.search(pattern_entity_combined, word_entity[1])
-        if entity:
-            entity_count += 1
-
-    if entity_count >= 5:
-        return "hard"
-    elif entity_count == 4:
-        return "medium"
-    else:
-        return "easy"
-
