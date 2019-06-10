@@ -2,7 +2,7 @@ import nltk
 # from nltk.tokenize import word_tokenize
 # from nltk.tag import pos_tag
 import re
-from nltk.tag.stanford import StanfordNERTagger
+
 
 def sentence_preprocessing(sentence):
     sentence = nltk.word_tokenize(sentence)
@@ -64,18 +64,7 @@ def count_type(sentence):
         return "N"
 
 
-def ner_complex(sentence):
-
-    jar = './stanford-ner.jar'
-    model = './english.all.3class.distsim.crf.ser.gz'
-
-    # Prepare NER tagger with english model
-    ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
-
-    # Tokenize: Split sentence into words
-    words = nltk.word_tokenize(sentence)
-    # Run NER tagger on words
-    words_ner = ner_tagger.tag(words)
+def ner_complex(words_ner):
     pattern_entity = ["LOCATION", "PERSON", "ORGANIZATION"]
     pattern_entity_combined = "(" + ")|(".join(pattern_entity) + ")"
     # # print(pattern)

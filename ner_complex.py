@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import nltk
 import pickle
+from nltk.tag.stanford import StanfordNERTagger
 import numpy as np
 from helper_fn import sentence_preprocessing, pos_complex, list_type, count_type, ner_complex
 
@@ -66,28 +67,41 @@ label sentence are 'list' type and 'count' type
 # pickle_handle = open("pickle_df_processed", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
-# print(category_df)
+# # print(category_df)
 
 
 """
 NER Tagging
 """
-pickle_handle = open("pickle_df_processed", "rb")
-category_df = pickle.load(pickle_handle)
-pickle_handle.close()
-# print(category_df)
+# pickle_handle = open("pickle_df_processed", "rb")
+# category_df = pickle.load(pickle_handle)
+# pickle_handle.close()
+# # print(category_df)
+#
+# jar = './stanford-ner.jar'
+# model = './english.all.3class.distsim.crf.ser.gz'
+#
+# # Prepare NER tagger with english model
+# ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
 
-category_df = category_df.set_index("qald_id", drop=False)
-for id_label in category_df.index:
-    sentence = category_df.at[id_label, "sentence_en"]
-    # print(sentence)
-    label_HME = ner_complex(sentence)
-    category_df.at[id_label, "ner-complex(H/M/E)"] = label_HME
-
-pickle_handle = open("pickle_df_processed", "wb")
-pickle.dump(category_df, pickle_handle)
-pickle_handle.close()
-# print(category_df)
+# category_df = category_df.set_index("qald_id", drop=False)
+# for id_label in category_df.index:
+#     sentence = category_df.at[id_label, "sentence_en"]
+#
+#     # Tokenize: Split sentence into words
+#     words = nltk.word_tokenize(sentence)
+#
+#     # Run NER tagger on words
+#     words_ner = ner_tagger.tag(words)
+#     # print(words_ner)
+#
+#     label_HME = ner_complex(words_ner)
+#     category_df.at[id_label, "ner-complex(H/M/E)"] = label_HME
+#
+# pickle_handle = open("pickle_df_processed", "wb")
+# pickle.dump(category_df, pickle_handle)
+# pickle_handle.close()
+# # print(category_df)
 
 """
 OpenIE-complex
@@ -95,4 +109,4 @@ OpenIE-complex
 # pickle_handle = open("pickle_df_processed", "rb")
 # category_df = pickle.load(pickle_handle)
 # pickle_handle.close()
-# print(category_df)
+# # print(category_df)
