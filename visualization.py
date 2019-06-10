@@ -11,7 +11,7 @@ pickle_handle.close()
 # print(category_df)
 # category_df.to_csv("qald_en_train_pos_ner_list_count.csv", index=False)
 category_df.to_csv("qald_en_test_pos_ner_list_count.csv", index=False)
-# columns=["qald_id", "sentence_en", "pos-complex(H/M/E)",
+# columns=["qald_id", "sentence_en", "pos-complex(H/M/E)",V
 #                                                          "ner-complex(H/M/E)", "list_type(Y/N)", "count_type(Y/N)"],
 
 
