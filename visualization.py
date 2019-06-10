@@ -50,14 +50,14 @@ r = [0, 1]
 
 # Names of group and bar width
 names = ['pos_complex', 'ner_complex']
-barWidth = 1
+barWidth = 0.85
 
 # Create brown bars
-plt.bar(r, easy, color='#7f6d5f', edgecolor='white', width=barWidth)
+plt.bar(r, easy, color='#b5ffb9', edgecolor='white', width=barWidth)
 # Create green bars (middle), on top of the firs ones
-plt.bar(r, medium, bottom=easy, color='#557f2d', edgecolor='white', width=barWidth)
+plt.bar(r, medium, bottom=easy, color='#f9bc86', edgecolor='white', width=barWidth)
 # Create green bars (top)
-plt.bar(r, hard, bottom=bars, color='#2d7f5e', edgecolor='white', width=barWidth)
+plt.bar(r, hard, bottom=bars, color='#a3acff', edgecolor='white', width=barWidth)
 
 # Custom X axis
 plt.xticks(r, names, fontweight='bold')
