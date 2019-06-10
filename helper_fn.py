@@ -30,6 +30,22 @@ def pos_complex(pos_tagged_sentence):
     else:
         return "easy"
 
+def noun_count(pos_tagged_sentence):
+    pattern_nn = ["NN.*", "WP"]
+    pattern_nn_combined = "(" + ")|(".join(pattern_nn) + ")"
+    # print(pattern)
+    noun_count = 0
+    other_count = 0
+    for word_tag in pos_tagged_sentence:
+        # noun_tag = re.search(r'(NN.*)|(WP)', word_tag[1])
+        noun_tag = re.search(pattern_nn_combined, word_tag[1])
+        if noun_tag:
+            noun_count += 1
+        else:
+            other_count += 1
+
+    return noun_count
+
 
 def list_type(sentence):
     list_count = 0

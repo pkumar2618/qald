@@ -4,7 +4,7 @@ import nltk
 import pickle
 from nltk.tag.stanford import StanfordNERTagger
 import numpy as np
-from helper_fn import sentence_preprocessing, pos_complex, list_type, count_type, ner_complex
+from helper_fn import sentence_preprocessing, pos_complex, noun_count, list_type, count_type, ner_complex
 
 
 """
@@ -46,6 +46,31 @@ pos-complex(H): when sentence has 4 or more NN/WP tags and 1+ not(NN and WP) tag
 # pickle_handle = open("pickle_df_processed", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
+
+# noun count
+pickle_handle = open("pickle_df_processed", "rb")
+category_df = pickle.load(pickle_handle)
+pickle_handle.close()
+# print(category_df)
+
+category_df = category_df.set_index("qald_id", drop=False)
+series_noun_count = []
+for id_label in category_df.index:
+    sentence = sentence_preprocessing(category_df.at[id_label, "sentence_en"])
+    # print(sentence)
+    nn_count = noun_count(sentence)
+    series_noun_count.append(nn_count)
+
+category_df.insert(3, "noun-count", series_noun_count)
+category_df.to_csv("qald_en_pos_ner_list_count.csv", columns=["qald_id", "sentence_en", "pos-complex(H/M/E)",
+                                                              "noun-count", "ner-complex(H/M/E)", "list_type(Y/N)",
+                                                              "count_type(Y/N)"],
+                   index=False)
+
+pickle_handle = open("pickle_df_processed", "wb")
+pickle.dump(category_df, pickle_handle)
+pickle_handle.close()
+# print(category_df)
 
 
 """
