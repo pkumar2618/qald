@@ -52,6 +52,8 @@ r = [0, 1]
 names = ['pos_complex', 'ner_complex']
 barWidth = 0.85
 
+# labels for the stacked bar
+stack_label = ["easy", "medium", "hard"]
 # Create brown bars
 plt.bar(r, easy, color='#b5ffb9', edgecolor='white', width=barWidth)
 # Create green bars (middle), on top of the firs ones
@@ -61,7 +63,9 @@ plt.bar(r, hard, bottom=bars, color='#a3acff', edgecolor='white', width=barWidth
 
 # Custom X axis
 plt.xticks(r, names, fontweight='bold')
-plt.xlabel("group")
-
+plt.xlabel("Complexity Dimension", fontsize=16)
+plt.ylabel('Sentence count', fontsize=16)
+plt.title('Complexity of QALD sentences', fontsize=18)
+plt.legend(stack_label, loc=2)
 # Show graphic
 plt.show()
