@@ -106,9 +106,10 @@ for id_label in category_df.index:
     # print(words_ner)
 
     ner_entity_complxity = ner_complex(words_ner)
-    category_df.at[id_label, "ner-tags"] = ner_entity_complxity[0]
-    category_df.at[id_label, "entity-count"] = ner_entity_complxity[1]
-    category_df.at[id_label, "ner-complex(H/M/E)"] = ner_entity_complxity[2]
+    # category_df.at[id_label, "ner-tags"] = ner_entity_complxity[0]
+    # category_df.at[id_label, "entity-count"] = ner_entity_complxity[1]
+    # category_df.at[id_label, "ner-complex(H/M/E)"] = ner_entity_complxity[2]
+    category_df.at[id_label, "sentence_entities_grayed"] = ner_entity_complxity[3]
 
 # pickle_handle = open("pickle_df_train_processed", "wb")
 pickle_handle = open("pickle_df_test_processed", "wb")

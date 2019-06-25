@@ -38,17 +38,26 @@ def ner_complex(words_ner):
     pattern_entity_combined = "(" + ")|(".join(pattern_entity) + ")"
     # # print(pattern)
     entity_count = 0
+    sentence_entities_grayed = []
     for word_entity in words_ner:
         entity = re.search(pattern_entity_combined, word_entity[1])
+
         if entity:
             entity_count += 1
+            sentence_entities_grayed.append('$'+word_entity[0]+'$')
+        else:
+            sentence_entities_grayed.append(word_entity[0])
 
     if entity_count >= 4:
-        return words_ner, entity_count, "hard"
+        # return words_ner, entity_count, "hard"
+        return words_ner, entity_count, "hard", ' '.join(sentence_entities_grayed)
     elif entity_count == 3 or entity_count == 2:
-        return words_ner, entity_count, "medium"
+        # return words_ner, entity_count, "medium"
+        return words_ner, entity_count, "medium", ' '.join(sentence_entities_grayed)
     else:
-        return words_ner, entity_count, "easy"
+        # return words_ner, entity_count, "easy"
+        return words_ner, entity_count, "easy", ' '.join(sentence_entities_grayed)
+
 
 def noun_count(pos_tagged_sentence):
     pattern_nn = ["NN.*", "WP"]
@@ -65,6 +74,7 @@ def noun_count(pos_tagged_sentence):
             other_count += 1
 
     return noun_count
+
 
 def list_type(sentence):
     list_count = 0
