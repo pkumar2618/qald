@@ -1,0 +1,1428 @@
+qald_version,split,question_id,sentence_en
+qald-5,test,1,Give me all ESA astronauts.
+qald-5,test,2,Give me all Swedish holidays.
+qald-5,test,3,Who is the youngest Pulitzer Prize winner?
+qald-5,test,4,Which animals are critically endangered?
+qald-5,test,5,Which soccer players were born on Malta?
+qald-5,test,6,Did Arnold Schwarzenegger attend a university?
+qald-5,test,7,Which programming languages were influenced by Perl?
+qald-5,test,8,Is Barack Obama a democrat?
+qald-5,test,9,How many children does Eddie Murphy have?
+qald-5,test,10,Who is the oldest child of Meryl Streep?
+qald-5,test,11,Who killed John Lennon?
+qald-5,test,13,Which frequent flyer program has the most airlines?
+qald-5,test,12,In which city is Air China headquartered?
+qald-5,test,14,Which artists were born on the same date as Rachel Stevens?
+qald-5,test,15,How many scientists graduated from an Ivy League university?
+qald-5,test,16,Which types of grapes grow in Oregon?
+qald-5,test,17,Who is starring in Spanish movies produced by Benicio del Toro?
+qald-5,test,18,Who is the manager of Real Madrid?
+qald-5,test,19,Give me the currency of China.
+qald-5,test,20,Which movies starring Brad Pitt were directed by Guy Ritchie?
+qald-5,test,22,How many companies were founded by the founder of Facebook?
+qald-5,test,23,How many companies were founded in the same year as Google?
+qald-5,test,24,Which subsidiary of Lufthansa serves both Dortmund and Berlin Tegel?
+qald-5,test,25,How many airlines are members of the Star Alliance?
+qald-5,test,26,Give me all spacecrafts that flew to Mars.
+qald-5,test,27,Which musician wrote the most books?
+qald-5,test,28,Show me everyone who was born on Halloween.
+qald-5,test,29,Give me all Swiss non-profit organizations.
+qald-5,test,30,In which country is Mecca located?
+qald-5,test,31,What is the net income of Apple?
+qald-5,test,32,What does the abbreviation FIFA stand for?
+qald-5,test,33,When did the Ming dynasty dissolve?
+qald-5,test,34,Which museum in New York has the most visitors?
+qald-5,test,35,Is Lake Baikal bigger than the Great Bear Lake?
+qald-5,test,36,Desserts from which country contain fish?
+qald-5,test,37,What is the highest mountain in Italy?
+qald-5,test,38,Where did the architect of the Eiffel Tower study?
+qald-5,test,39,Which Greek parties are pro-European?
+qald-5,test,40,What is the height difference between Mount Everest and K2?
+qald-5,test,41,Who is the mayor of Rotterdam?
+qald-5,test,42,In which city were the parents of Che Guevara born?
+qald-5,test,43,How high is the Yokohama Marine Tower?
+qald-5,test,44,Are Taiko a kind of Japanese musical instruments?
+qald-5,test,45,How many ethnic groups live in Slovenia?
+qald-5,test,46,List the seven kings of Rome.
+qald-5,test,47,Who were the parents of Queen Victoria?
+qald-5,test,48,Who is the heaviest player of the Chicago Bulls?
+qald-5,test,49,Which volcanos in Japan erupted since 2000?
+qald-5,test,50,Who is the tallest basketball player?
+qald-5,test,51,"Where was the ""Father of Singapore"" born?"
+qald-5,test,52,Which Secretary of State was significantly involved in the United States' dominance of the Caribbean?
+qald-5,test,53,Who is the architect of the tallest building in Japan?
+qald-5,test,54,What is the name of the Viennese newspaper founded by the creator of the croissant?
+qald-5,test,55,In which city where Charlie Chaplin's half brothers born?
+qald-5,test,56,Which German mathematicians were members of the von Braun rocket group?
+qald-5,test,57,Which writers converted to Islam?
+qald-5,test,58,Are there man-made lakes in Australia that are deeper than 100 meters?
+qald-5,test,59,Which movie by the Coen brothers stars John Turturro in the role of a New York City playwright?
+qald-5,test,60,Which of the volcanoes that erupted in 1550 is still active?
+qald-6,train,1,Give me all cosmonauts.
+qald-6,train,10,In which country does the Ganges start?
+qald-6,train,100,When is the movie Worst Case Scenario going to be in cinemas in the Netherlands?
+qald-6,train,101,Which German cities have more than 250000 inhabitants?
+qald-6,train,102,Who was John F. Kennedy's vice president?
+qald-6,train,103,Who is the mayor of Tel Aviv?
+qald-6,train,104,How many students does the Free University in Amsterdam have?
+qald-6,train,105,What is the second highest mountain on Earth?
+qald-6,train,106,Give me all professional skateboarders from Sweden.
+qald-6,train,107,When was Alberta admitted as province?
+qald-6,train,108,To which countries does the Himalayan mountain system extend?
+qald-6,train,109,Give me a list of all bandleaders that play trumpet.
+qald-6,train,11,Which countries have more than ten caves?
+qald-6,train,110,What is the total amount of men and women serving in the FDNY?
+qald-6,train,200,Who produces Orangina?
+qald-6,train,111,Who is the Formula 1 race driver with the most races?
+qald-6,train,112,Give me all world heritage sites designated within the past two years.
+qald-6,train,113,Who is the youngest player in the Premier League?
+qald-6,train,114,Give me all members of Prodigy.
+qald-6,train,115,What is the longest river?
+qald-6,train,116,Does Breaking Bad have more episodes than Game of Thrones?
+qald-6,train,117,Give me all cars that are produced in Germany.
+qald-6,train,118,What were the main discoveries of the Mars rover Curiosity?
+qald-6,train,119,Give me all people that were born in Vienna and died in Berlin.
+qald-6,train,12,Is proinsulin a protein?
+qald-6,train,120,How tall is Michael Jordan?
+qald-6,train,121,What is the capital of Canada?
+qald-6,train,122,Who is the governor of Wyoming?
+qald-6,train,123,Do Prince Harry and Prince William have the same parents?
+qald-6,train,124,Who was the father of Queen Elizabeth II?
+qald-6,train,125,Which U.S. state has been admitted latest?
+qald-6,train,126,How many languages are spoken in Turkmenistan?
+qald-6,train,127,Butch Otter is the governor of which U.S. state?
+qald-6,train,128,Give me all movies directed by Francis Ford Coppola.
+qald-6,train,129,Give me all actors starring in movies directed by William Shatner.
+qald-6,train,13,Are tree frogs a type of amphibian?
+qald-6,train,130,What is the birth name of Angela Merkel?
+qald-6,train,131,Give me all Methodist politicians.
+qald-6,train,132,How often did Jane Fonda marry?
+qald-6,train,133,Give me all Australian nonprofit organizations.
+qald-6,train,134,In which military conflicts did Lawrence of Arabia participate?
+qald-6,train,135,Who developed Minecraft?
+qald-6,train,136,What is the melting point of copper?
+qald-6,train,137,Give me all sister cities of Brno.
+qald-6,train,138,How many inhabitants does Maribor have?
+qald-6,train,139,Give me all companies in Munich.
+qald-6,train,14,How tall is Amazon Eve?
+qald-6,train,140,List all games by GMT.
+qald-6,train,141,Who founded Intel?
+qald-6,train,142,Who is the husband of Amanda Palmer?
+qald-6,train,143,Give me all breeds of the German Shepherd dog.
+qald-6,train,144,Which cities does the Weser flow through?
+qald-6,train,145,Which countries are connected by the Rhine?
+qald-6,train,146,Which professional surfers were born in Australia?
+qald-6,train,147,What is the average temperature on Hawaii?
+qald-6,train,148,In which UK city are the headquarters of the MI6?
+qald-6,train,149,Which weapons did Heckler & Koch develop?
+qald-6,train,15,Who created Goofy?
+qald-6,train,150,Was the Cuban Missile Crisis earlier than the Bay of Pigs Invasion?
+qald-6,train,151,Give me all islands that belong to Japan.
+qald-6,train,152,Who invented the zipper?
+qald-6,train,153,What is the ruling party in Lisbon?
+qald-6,train,154,What are the nicknames of San Francisco?
+qald-6,train,155,Which Greek goddesses dwelt on Mount Olympus?
+qald-6,train,156,When were the Hells Angels founded?
+qald-6,train,157,Give me all Apollo 14 astronauts.
+qald-6,train,158,What is the time zone of Salt Lake City?
+qald-6,train,159,Which U.S. states are in the same time zone as Utah?
+qald-6,train,16,Give me the capitals of all countries in Africa.
+qald-6,train,160,Give me a list of all lakes in Denmark.
+qald-6,train,161,How many missions does the Soyuz programme have?
+qald-6,train,162,Did Socrates influence Aristotle?
+qald-6,train,163,Give me all Danish movies.
+qald-6,train,164,Give me all launch pads operated by NASA.
+qald-6,train,165,Which instruments does Cat Stevens play?
+qald-6,train,166,Which ships were called after Benjamin Franklin?
+qald-6,train,167,Who are the parents of the wife of Juan Carlos I?
+qald-6,train,168,How many employees does Google have?
+qald-6,train,169,Did Tesla win a nobel prize in physics?
+qald-6,train,17,Give me all cities in New Jersey with more than 100000 inhabitants.
+qald-6,train,170,Is Rita Wilson the wife of Tom Hanks?
+qald-6,train,171,When was the Statue of Liberty built?
+qald-6,train,172,Where is Fort Knox located?
+qald-6,train,173,How many children did Benjamin Franklin have?
+qald-6,train,174,When did Michael Jackson die?
+qald-6,train,175,Which Chess players died in the same place they were born in?
+qald-6,train,176,List the children of Margaret Thatcher.
+qald-6,train,177,Who was called Frank The Tank?
+qald-6,train,178,Was Margaret Thatcher a chemist?
+qald-6,train,179,Was Marc Chagall a jew?
+qald-6,train,18,Which museum exhibits The Scream by Munch?
+qald-6,train,180,Give me all books by William Goldman with more than 300 pages.
+qald-6,train,181,Which books by Kerouac were published by Viking Press?
+qald-6,train,182,Give me a list of all American inventions.
+qald-6,train,183,How high is the Mount Everest?
+qald-6,train,184,Who created Batman?
+qald-6,train,185,How many people live in the capital of Australia?
+qald-6,train,186,What is the largest city in Australia?
+qald-6,train,187,Who composed the music for Harold and Maude?
+qald-6,train,188,Which films starring Clint Eastwood did he direct himself?
+qald-6,train,189,In which city was the former Dutch queen Juliana buried?
+qald-6,train,19,Is Egypts largest city also its capital?
+qald-6,train,190,Where is the residence of the prime minister of Spain?
+qald-6,train,191,Which U.S. state has the abbreviation MN?
+qald-6,train,192,Show me all songs from Bruce Springsteen released between 1980 and 1990.
+qald-6,train,193,Which movies did Kurosawa direct?
+qald-6,train,194,What is the founding year of the brewery that produces Pilsner Urquell?
+qald-6,train,195,Who wrote the lyrics for the Polish national anthem?
+qald-6,train,196,Give me all B-sides of the Ramones.
+qald-6,train,197,Who painted The Storm on the Sea of Galilee?
+qald-6,train,198,Which country does the creator of Miffy come from?
+qald-6,train,199,For which label did Elvis record his first album?
+qald-6,train,2,Give me the birthdays of all actors of the television show Charmed.
+qald-6,train,20,How many employees does IBM have?
+qald-6,train,21,Which states border Illinois?
+qald-6,train,22,In which country is the Limerick Lake?
+qald-6,train,23,Which television shows were created by John Cleese?
+qald-6,train,24,Which mountain is the highest after the Annapurna?
+qald-6,train,25,In which films directed by Garry Marshall was Julia Roberts starring?
+qald-6,train,26,Which bridges are of the same type as the Manhattan Bridge?
+qald-6,train,27,Was U.S. president Jackson involved in a war?
+qald-6,train,28,Give me all communist countries.
+qald-6,train,29,Which awards did Douglas Hofstadter win?
+qald-6,train,3,Who is the daughter of Robert Kennedy married to?
+qald-6,train,30,Which U.S. state has the highest population density?
+qald-6,train,31,What is the currency of the Czech Republic?
+qald-6,train,32,Which countries adopted the Euro?
+qald-6,train,33,What is the area code of Berlin?
+qald-6,train,34,Which countries have more than two official languages?
+qald-6,train,35,Who is the owner of Rolls-Royce?
+qald-6,train,36,Through which countries does the Yenisei river flow?
+qald-6,train,37,When did Latvia join the EU?
+qald-6,train,38,Which politicians were married to a German?
+qald-6,train,39,When was the Battle of Gettysburg?
+qald-6,train,4,Which river does the Brooklyn Bridge cross?
+qald-6,train,40,What is the highest mountain in Australia?
+qald-6,train,41,Give me all soccer clubs in Spain.
+qald-6,train,42,What is the official language of Suriname?
+qald-6,train,44,Who designed the Brooklyn Bridge?
+qald-6,train,45,Which telecommunications organizations are located in Belgium?
+qald-6,train,46,Is Frank Herbert still alive?
+qald-6,train,47,What is the highest place of the Urals?
+qald-6,train,48,Who is the editor of Forbes?
+qald-6,train,49,Give me all companies in the advertising industry.
+qald-6,train,5,How many countries are there in Europe?
+qald-6,train,50,What did Bruce Carver die from?
+qald-6,train,51,Give me all libraries established earlier than 1400.
+qald-6,train,52,Which presidents were born in 1945?
+qald-6,train,53,Give me all federal chancellors of Germany.
+qald-6,train,54,Who was the wife of U.S. president Lincoln?
+qald-6,train,55,Who developed the video game World of Warcraft?
+qald-6,train,56,What is the official website of Tom Cruise?
+qald-6,train,57,List all episodes of the first season of the HBO television series The Sopranos.
+qald-6,train,58,Who produced the most films?
+qald-6,train,59,Give me all people with first name Jimmy.
+qald-6,train,6,In which city did John F. Kennedy die?
+qald-6,train,60,Is there a video game called Battle Chess?
+qald-6,train,61,Which mountains are higher than the Nanga Parbat?
+qald-6,train,62,Who created Wikipedia?
+qald-6,train,63,Give me all actors starring in Last Action Hero.
+qald-6,train,64,Which software has been developed by organizations founded in California?
+qald-6,train,65,Which companies work in the aerospace industry as well as in medicine?
+qald-6,train,66,Is Christian Bale starring in Velvet Goldmine?
+qald-6,train,67,Give me the websites of companies with more than 500000 employees.
+qald-6,train,68,Which actors were born in Germany?
+qald-6,train,69,Which caves have more than 3 entrances?
+qald-6,train,7,Was the wife of president Lincoln called Mary?
+qald-6,train,70,Give me all films produced by Hal Roach.
+qald-6,train,71,Give me all video games published by Mean Hamster Software.
+qald-6,train,72,Which languages are spoken in Estonia?
+qald-6,train,73,How many Aldi stores are there?
+qald-6,train,74,Which capitals in Europe were host cities of the summer olympic games?
+qald-6,train,75,Who was the 16th president of the United States?
+qald-6,train,76,How many films did Hal Roach produce?
+qald-6,train,77,Which music albums contain the song Last Christmas?
+qald-6,train,78,Give me all books written by Danielle Steel.
+qald-6,train,79,"Which airports are located in California, USA?"
+qald-6,train,8,Which states of Germany are governed by the Social Democratic Party?
+qald-6,train,80,Give me all Canadian Grunge record labels.
+qald-6,train,81,Which country has the most official languages?
+qald-6,train,82,In which programming language is GIMP written?
+qald-6,train,83,Who produced films starring Natalie Portman?
+qald-6,train,84,Give me all movies with Tom Cruise.
+qald-6,train,85,In which films did Julia Roberts as well as Richard Gere play?
+qald-6,train,86,Give me all female given names.
+qald-6,train,87,Who wrote the book The Pillars of the Earth?
+qald-6,train,88,How many films did Leonardo DiCaprio star in?
+qald-6,train,89,Give me all soccer clubs in the Premier League.
+qald-6,train,9,In which U.S. state is Mount McKinley located?
+qald-6,train,90,When was Jack Wolfskin founded?
+qald-6,train,91,Which organizations were founded in 1930?
+qald-6,train,92,What is the highest mountain?
+qald-6,train,93,Was Natalie Portman born in the United States?
+qald-6,train,94,Which budget did the first movie of Zdenek Sverak have?
+qald-6,train,95,How many big fires struck Paris during the Middle Ages?
+qald-6,train,96,Is Pamela Anderson a vegan?
+qald-6,train,97,How often was Michael Jordan divorced?
+qald-6,train,98,What is the most beautiful painting?
+qald-6,train,99,Give me all animal species that live in the Amazon rainforest.
+qald-6,train,231,How many inhabitants does the largest city in Canada have?
+qald-6,train,249,In which studio did the Beatles record their first album?
+qald-6,train,234,Who was the first to climb Mount Everest?
+qald-6,train,204,How many programming languages are there?
+qald-6,train,242,What is the official color of the University of Oxford?
+qald-6,train,250,How many gold medals did Michael Phelps win at the 2008 Olympics?
+qald-6,train,235,To which artistic movement did the painter of The Three Dancers belong?
+qald-6,train,211,Give me all animals that are extinct.
+qald-6,train,223,Does Abraham Lincoln's death place have a website?
+qald-6,train,244,How deep is Lake Chiemsee?
+qald-6,train,240,Give me the grandchildren of Elvis Presley.
+qald-6,train,210,Who is the youngest Darts player?
+qald-6,train,221,Where was Bach born?
+qald-6,train,232,In which countries can you pay using the West African CFA franc?
+qald-6,train,225,What are the top-10 action role-playing video games according to IGN?
+qald-6,train,214,What is the most frequent cause of death?
+qald-6,train,207,Does the Isar flow into a lake?
+qald-6,train,218,Give me all films produced by Steven Spielberg with a budget of at least $80 million.
+qald-6,train,241,Give me all writers that won the Nobel Prize in literature.
+qald-6,train,201,Give me all taikonauts.
+qald-6,train,212,How many pages does War and Peace have?
+qald-6,train,217,What is the bridge with the longest span?
+qald-6,train,247,Give me all actors called Baldwin.
+qald-6,train,216,Who is the tallest player of the Atlanta Falcons?
+qald-6,train,208,Which rivers flow into a German lake?
+qald-6,train,238,How many James Bond movies are there?
+qald-6,train,246,Which rockets were launched from Baikonur?
+qald-6,train,236,Which pope succeeded John Paul II?
+qald-6,train,205,Give me all Dutch parties.
+qald-6,train,230,When is Halloween?
+qald-6,train,243,Give me all Swedish oceanographers.
+qald-6,train,226,Give me all actors who were born in Berlin.
+qald-6,train,237,What was the last movie with Alec Guinness?
+qald-6,train,203,Which poet wrote the most books?
+qald-6,train,202,How many languages are spoken in Colombia?
+qald-6,train,248,What does ICRO stand for?
+qald-6,train,228,What was Brazil's lowest rank in the FIFA World Ranking?
+qald-6,train,233,Give me the capitals of all countries that the Himalayas run through.
+qald-6,train,239,Which actor played Chewbacca?
+qald-6,train,213,Which ingredients do I need for carrot cake?
+qald-6,train,219,Is Cola a beverage?
+qald-6,train,215,Who has Tom Cruise been married to?
+qald-6,train,222,Which of Tim Burton's films had the highest budget?
+qald-6,train,209,How heavy is Jupiter's lightest moon?
+qald-6,train,220,Which actor was casted in the most movies?
+qald-6,train,245,Is James Bond married?
+qald-6,train,229,Give me all Australian metalcore bands.
+qald-6,train,227,Give me all actors who were born in Paris after 1950.
+qald-6,train,206,When was Olof Palme shot?
+qald-6,train,224,Who are the four youngest MVP basketball players?
+qald-6,train,251,Which companies have more than 1 million employees?
+qald-6,train,252,Give all swimmers that were born in Moscow.
+qald-6,train,253,Who was called Rodzilla?
+qald-6,train,254,Show me the book that Muhammad Ali wrote.
+qald-6,train,255,How many museums does Paris have?
+qald-6,train,256,Which city has the most inhabitants?
+qald-6,train,257,Which city has the least inhabitants?
+qald-6,train,258,Give me all the TV shows with Neil Patrick Harris.
+qald-6,train,259,Who wrote The Hunger Games?
+qald-6,train,260,Show a list of soccer clubs that play in the Bundesliga.
+qald-6,train,261,What country is Mount Everest in?
+qald-6,train,262,Who is the founder of Penguin Books?
+qald-6,train,263,Which programming languages influenced Javascript?
+qald-6,train,264,Did Che Guevara have children?
+qald-6,train,265,List all the musicals with music by Leonard Bernstein.
+qald-6,train,266,Show me all the breweries in Australia.
+qald-6,train,267,When was the Titanic completed?
+qald-6,train,268,How much did Pulp Fiction cost?
+qald-6,train,269,How many airlines are there?
+qald-6,train,270,Who played Agent Smith in Matrix?
+qald-6,train,271,How much carbs does peanut butter have?
+qald-6,train,272,Which book has the most pages?
+qald-6,train,273,Which bridges cross the Seine?
+qald-6,train,274,Who is the mayor of the capital of French Polynesia?
+qald-6,train,275,When did Dracula's creator die?
+qald-6,train,276,What is the location of the Houses of Parliament?
+qald-6,train,277,Show me all English Gothic buildings in Kent.
+qald-6,train,278,Who was the pope that founded the Vatican Television?
+qald-6,train,279,What airlines are part of the SkyTeam alliance?
+qald-6,train,280,"What is the total population of Melbourne, Florida?"
+qald-6,train,281,Which airports does Yeti Airlines serve?
+qald-6,train,282,In which year was Rachel Stevens born?
+qald-6,train,283,Where was JFK assassinated?
+qald-6,train,284,How many politicians graduated from Columbia University?
+qald-6,train,285,Which scientist is known for the Manhattan Project and the Nobel Peace Prize?
+qald-6,train,286,What is the highest volcano in Africa?
+qald-6,train,287,Which beer originated in Ireland?
+qald-6,train,288,What are the specialities of the UNC Health Care?
+qald-6,train,289,Who is the owner of Facebook?
+qald-6,train,290,From which region is the Melon de Bourgogne?
+qald-6,train,291,Who was influenced by Socrates?
+qald-6,train,292,Who was president of Pakistan in 1978?
+qald-6,train,293,Give me English actors starring in Lovesick.
+qald-6,train,294,Give me all types of eating disorders.
+qald-6,train,295,Who was married to president Chirac?
+qald-6,train,296,What is the largest metropolitan area in Washington state?
+qald-6,train,297,Where in France is sparkling wine produced?
+qald-6,train,298,Where did Hillel Slovak die?
+qald-6,train,299,What is the timezone in San Pedro de Atacama?
+qald-6,train,300,In which city does the Chile Route 68 end?
+qald-6,train,320,Which movies starring Mickey Rourke were directed by Guy Ritchie?
+qald-6,train,321,Is Darth Vader Luke’s father?
+qald-6,train,324,Which subsidiary of TUI Travel serves both Glasgow and Dublin?
+qald-6,train,343,How high is the lighthouse in Colombo?
+qald-9,test,98,Who killed Caesar?
+qald-9,test,86,What is the highest mountain in Germany?
+qald-9,test,84,Which American presidents were in office during the Vietnam War?
+qald-9,test,64,What is the profession of Frank Herbert?
+qald-9,test,6,Are Taiko some kind of Japanese musical instrument?
+qald-9,test,56,How many seats does the home stadium of FC Porto have?
+qald-9,test,44,Which European countries have a constitutional monarchy?
+qald-9,test,42,Which countries have places with more than two caves?
+qald-9,test,32,What is Angela Merkel’s birth name?
+qald-9,test,31,Who is the mayor of Berlin?
+qald-9,test,29,Which countries in the European Union adopted the Euro?
+qald-9,test,23,Which software has been published by Mean Hamster Software?
+qald-9,test,68,Which country was Bill Gates born in?
+qald-9,test,22,How many grand-children did Jacques Cousteau have?
+qald-9,test,210,Which monarchs of the United Kingdom were married to a German?
+qald-9,test,199,Give me all Argentine films.
+qald-9,test,203,How did Michael Jackson die?
+qald-9,test,196,Which classes does the Millepede belong to?
+qald-9,test,188,Give me the homepage of Forbes.
+qald-9,test,62,What is the highest place of Karakoram?
+qald-9,test,173,When did Finland join the EU?
+qald-9,test,168,Which actors play in Big Bang Theory?
+qald-9,test,166,Which computer scientist won an oscar?
+qald-9,test,160,Who wrote Harry Potter?
+qald-9,test,155,What is the nick name of Baghdad?
+qald-9,test,150,In which city was the president of Montenegro born?
+qald-9,test,25,What is the longest river in China?
+qald-9,test,136,How many moons does Mars have?
+qald-9,test,134,What is Batman's real name?
+qald-9,test,132,What is Elon Musk famous for?
+qald-9,test,128,Who is the author of WikiLeaks?
+qald-9,test,126,Sean Parnell was the governor of which U.S. state?
+qald-9,test,125,How many years was the Ford Model T manufactured?
+qald-9,test,124,When was Carlo Giuliani shot?
+qald-9,test,122,Who was the wife of President Lincoln?
+qald-9,test,111,How many awards has Bertrand Russell?
+qald-9,test,59,Which space probes were sent into orbit around the sun?
+qald-9,test,10,How many students does the Free University of Amsterdam have?
+qald-9,test,1,What is the revenue of IBM?
+qald-9,test,178,How many James Bond movies do exist?
+qald-9,test,129,Who does the voice of Bart Simpson?
+qald-9,test,183,Who was Tom Hanks married to?
+qald-9,test,83,Give me all gangsters from the prohibition era.
+qald-9,test,213,Show me all Czech movies.
+qald-9,test,105,Which countries have more than ten volcanoes?
+qald-9,test,21,Who created English Wikipedia?
+qald-9,test,34,Give me all female German chancellors.
+qald-9,test,145,Who owns Aldi?
+qald-9,test,154,Which books were written by Danielle Steel?
+qald-9,test,96,Which professional surfers were born on the Philippines?
+qald-9,test,79,Are there any castles in the United States?
+qald-9,test,80,Give me a list of all critically endangered birds.
+qald-9,test,163,Give me all chemical elements.
+qald-9,test,211,Give me all American presidents of the last 20 years.
+qald-9,test,144,Whom did Lance Bass marry?
+qald-9,test,131,What languages are spoken in Pakistan?
+qald-9,test,120,Who is the daughter of Bill Clinton married to?
+qald-9,test,164,Who was on the Apollo 11 mission?
+qald-9,test,88,What is the wavelength of Indigo?
+qald-9,test,63,Who was called Scarface?
+qald-9,test,27,Which rivers flow into the North Sea?
+qald-9,test,207,Which daughters of British earls died at the same place they were born at?
+qald-9,test,24,How many emperors did China have?
+qald-9,test,133,What are the names of the Teenage Mutant Ninja Turtles?
+qald-9,test,103,Where does Piccadilly start?
+qald-9,test,165,What is the name of the university where Obama's wife studied?
+qald-9,test,108,When did Paraguay proclaim its independence?
+qald-9,test,15,How short is the shortest active NBA player?
+qald-9,test,45,Where did Abraham Lincoln die?
+qald-9,test,9,In which city is the headquarter of Air China?
+qald-9,test,171,When did the Boston Tea Party take place?
+qald-9,test,114,How big is the earth's diameter?
+qald-9,test,92,Is the wife of President Obama called Michelle?
+qald-9,test,175,When did Muhammad die?
+qald-9,test,26,What is the atmosphere of the Moon composed of?
+qald-9,test,60,Who is the governor of Texas?
+qald-9,test,206,What was the name of the famous battle in 1836 in San Antonio?
+qald-9,test,97,Give me the official websites of actors of the television show Charmed.
+qald-9,test,20,How many calories does a baguette have?
+qald-9,test,169,Give me all libraries established before 1400.
+qald-9,test,38,Give me all Frisian islands that belong to the Netherlands.
+qald-9,test,78,When was the De Beers company founded?
+qald-9,test,19,Who became president after JFK died?
+qald-9,test,174,Who is the novelist of the work a song of ice and fire?
+qald-9,test,152,Which beer brewing companies are located in North-Rhine Westphalia?
+qald-9,test,94,When did princess Diana die?
+qald-9,test,115,How many rivers and lakes are in South Carolina?
+qald-9,test,14,Show me hiking trails in the Grand Canyon where there's no danger of flash floods.
+qald-9,test,148,What is the largest state in the United States?
+qald-9,test,179,What were the names of the three ships by Columbus?
+qald-1,test,23,"
+Which presidents of the United States had more than three children?
+"
+qald-1,test,3,"
+Give me the official websites of actors of the television show Charmed.
+"
+qald-1,test,37,"
+Who is the daughter of Bill Clinton married to?
+"
+qald-1,test,43,"
+Which river does the Brooklyn Bridge cross?
+"
+qald-1,test,21,"
+How many monarchical countries are there in Europe?
+"
+qald-1,test,7,"
+Where did Abraham Lincoln die?
+"
+qald-1,test,10,"
+Is the wife of President Obama called Michelle?
+"
+qald-1,test,28,"
+Which states of Germany are governed by the Social Democratic Party?
+"
+qald-1,test,39,"
+Which U.S. states possess gold minerals?
+"
+qald-1,test,50,"
+In which country does the Nile start?
+"
+qald-1,test,44,"
+Which locations have more than two caves?
+"
+qald-1,test,30,"
+Is proinsulin a protein?
+"
+qald-1,test,12,"
+Which classis does the Millepede belong to?
+"
+qald-1,test,49,"
+How tall is Claudia Schiffer?
+"
+qald-1,test,33,"
+Who created Goofy?
+"
+qald-1,test,4,"
+Give me the capitals of all U.S. states.
+"
+qald-1,test,18,"
+Give me all cities in New Jersey with more than 100000 inhabitants.
+"
+qald-1,test,31,"
+Which museum exhibits The Scream by Munch?
+"
+qald-1,test,35,"
+Is Egypts largest city also its capital?
+"
+qald-1,test,27,"
+What is the revenue of IBM?
+"
+qald-1,test,38,"
+Which states border Utah?
+"
+qald-1,test,13,"
+In which country is the Limerick Lake?
+"
+qald-1,test,32,"
+Which television shows were created by Walt Disney?
+"
+qald-1,test,45,"
+Which mountain is the highest after the Annapurna?
+"
+qald-1,test,29,"
+In which films directed by Garry Marshall was Julia Roberts starring?
+"
+qald-1,test,42,"
+Which bridges are of the same type as the Manhattan Bridge?
+"
+qald-1,test,14,"
+Was U.S. president Jackson involved in a war?
+"
+qald-1,test,20,"
+Which European countries are a constitutional monarchy?
+"
+qald-1,test,40,"
+Who is the author of WikiLeaks?
+"
+qald-1,test,17,"
+Which state of the United States of America has the highest density?
+"
+qald-1,test,19,"
+What is the currency of the Czech Republic?
+"
+qald-1,test,22,"
+Which countries in the European Union adopted the Euro?
+"
+qald-1,test,11,"
+What is the area code of Berlin?
+"
+qald-1,test,9,"
+Which countries have more than two official languages?
+"
+qald-1,test,16,"
+Who is the owner of Universal Studios?
+"
+qald-1,test,34,"
+Through which countries does the Yenisei river flow?
+"
+qald-1,test,48,"
+When did Germany join the EU?
+"
+qald-1,test,36,"
+Which monarchs of the United Kingdom were married to a German?
+"
+qald-1,test,8,"
+When was the Battle of Gettysburg?
+"
+qald-1,test,24,"
+What is the highest mountain in Germany?
+"
+qald-1,test,26,"
+Give me all soccer clubs in Spain.
+"
+qald-1,test,5,"
+What are the official languages of the Philippines?
+"
+qald-1,test,6,"
+Who is the mayor of New York City?
+"
+qald-1,test,41,"
+Who designed the Brooklyn Bridge?
+"
+qald-1,test,2,"
+Which telecommunications organizations are located in Belgium?
+"
+qald-1,test,15,"
+What is the profession of Frank Herbert?
+"
+qald-1,test,46,"
+What is the highest place of Karakoram?
+"
+qald-1,test,25,"
+Give me the homepage of Forbes.
+"
+qald-1,test,1,"
+Which companies are in the computer software industry?
+"
+qald-1,test,47,"
+What did Bruce Carver die from?
+"
+qald-3,test,1,"
+Which German cities have more than 250000 inhabitants?
+"
+qald-3,test,2,"
+Who was the successor of John F. Kennedy?
+"
+qald-3,test,3,"
+Who is the mayor of Berlin?
+"
+qald-3,test,4,"
+How many students does the Free University in Amsterdam have?
+"
+qald-3,test,5,"
+What is the second highest mountain on Earth?
+"
+qald-3,test,6,"
+Give me all professional skateboarders from Sweden.
+"
+qald-3,test,7,"
+When was Alberta admitted as province?
+"
+qald-3,test,8,"
+To which countries does the Himalayan mountain system extend?
+"
+qald-3,test,9,"
+Give me a list of all trumpet players that were bandleaders.
+"
+qald-3,test,10,"
+What is the total amount of men and women serving in the FDNY?
+"
+qald-3,test,11,"
+Who is the Formula 1 race driver with the most races?
+"
+qald-3,test,12,"
+Give me all world heritage sites designated within the past five years.
+"
+qald-3,test,13,"
+Who is the youngest player in the Premier League?
+"
+qald-3,test,14,"
+Give me all members of Prodigy.
+"
+qald-3,test,15,"
+What is the longest river?
+"
+qald-3,test,16,"
+Does the new Battlestar Galactica series have more episodes than the old one?
+"
+qald-3,test,17,"
+Give me all cars that are produced in Germany.
+"
+qald-3,test,19,"
+Give me all people that were born in Vienna and died in Berlin.
+"
+qald-3,test,20,"
+How tall is Michael Jordan?
+"
+qald-3,test,21,"
+What is the capital of Canada?
+"
+qald-3,test,22,"
+Who is the governor of Wyoming?
+"
+qald-3,test,23,"
+Do Prince Harry and Prince William have the same mother?
+"
+qald-3,test,24,"
+Who was the father of Queen Elizabeth II?
+"
+qald-3,test,25,"
+Which U.S. state has been admitted latest?
+"
+qald-3,test,26,"
+How many official languages are spoken on the Seychelles?
+"
+qald-3,test,27,"
+Sean Parnell is the governor of which U.S. state?
+"
+qald-3,test,28,"
+Give me all movies directed by Francis Ford Coppola.
+"
+qald-3,test,29,"
+Give me all actors starring in movies directed by and starring William Shatner.
+"
+qald-3,test,30,"
+What is the birth name of Angela Merkel?
+"
+qald-3,test,31,"
+Give me all current Methodist national leaders.
+"
+qald-3,test,32,"
+How often did Nicole Kidman marry?
+"
+qald-3,test,33,"
+Give me all Australian nonprofit organizations.
+"
+qald-3,test,34,"
+In which military conflicts did Lawrence of Arabia participate?
+"
+qald-3,test,35,"
+Who developed Minecraft?
+"
+qald-3,test,36,"
+What is the melting point of copper?
+"
+qald-3,test,37,"
+Give me all sister cities of Brno.
+"
+qald-3,test,38,"
+How many inhabitants does Maribor have?
+"
+qald-3,test,39,"
+Give me all companies in Munich.
+"
+qald-3,test,40,"
+List all games by GMT.
+"
+qald-3,test,41,"
+Who founded Intel?
+"
+qald-3,test,42,"
+Who is the husband of Amanda Palmer?
+"
+qald-3,test,43,"
+Give me all breeds of the German Shepherd dog.
+"
+qald-3,test,44,"
+Which cities does the Weser flow through?
+"
+qald-3,test,45,"
+Which countries are connected by the Rhine?
+"
+qald-3,test,46,"
+Which professional surfers were born on the Philippines?
+"
+qald-3,test,47,"
+What is the average temperature on Hawaii?
+"
+qald-3,test,48,"
+In which UK city are the headquarters of the MI6?
+"
+qald-3,test,49,"
+Which other weapons did the designer of the Uzi develop?
+"
+qald-3,test,50,"
+Was the Cuban Missile Crisis earlier than the Bay of Pigs Invasion?
+"
+qald-3,test,51,"
+Give me all Frisian islands that belong to the Netherlands.
+"
+qald-3,test,52,"
+Who invented the zipper?
+"
+qald-3,test,53,"
+What is the ruling party in Lisbon?
+"
+qald-3,test,54,"
+What are the nicknames of San Francisco?
+"
+qald-3,test,55,"
+Which Greek goddesses dwelt on Mount Olympus?
+"
+qald-3,test,56,"
+When were the Hells Angels founded?
+"
+qald-3,test,57,"
+Give me the Apollo 14 astronauts.
+"
+qald-3,test,58,"
+What is the time zone of Salt Lake City?
+"
+qald-3,test,59,"
+Which U.S. states are in the same timezone as Utah?
+"
+qald-3,test,60,"
+Give me a list of all lakes in Denmark.
+"
+qald-3,test,61,"
+How many space missions have there been?
+"
+qald-3,test,62,"
+Did Socrates influence Aristotle?
+"
+qald-3,test,63,"
+Give me all Argentine films.
+"
+qald-3,test,64,"
+Give me all launch pads operated by NASA.
+"
+qald-3,test,65,"
+Which instruments did John Lennon play?
+"
+qald-3,test,66,"
+Which ships were called after Benjamin Franklin?
+"
+qald-3,test,67,"
+Who are the parents of the wife of Juan Carlos I?
+"
+qald-3,test,68,"
+How many employees does Google have?
+"
+qald-3,test,69,"
+Did Tesla win a nobel prize in physics?
+"
+qald-3,test,70,"
+Is Michelle Obama the wife of Barack Obama?
+"
+qald-3,test,71,"
+When was the Statue of Liberty built?
+"
+qald-3,test,72,"
+In which U.S. state is Fort Knox located?
+"
+qald-3,test,73,"
+How many children did Benjamin Franklin have?
+"
+qald-3,test,74,"
+When did Michael Jackson die?
+"
+qald-3,test,75,"
+Which daughters of British earls died in the same place they were born in?
+"
+qald-3,test,76,"
+List the children of Margaret Thatcher.
+"
+qald-3,test,77,"
+Who was called Scarface?
+"
+qald-3,test,78,"
+Was Margaret Thatcher a chemist?
+"
+qald-3,test,79,"
+Was Dutch Schultz a jew?
+"
+qald-3,test,80,"
+Give me all books by William Goldman with more than 300 pages.
+"
+qald-3,test,81,"
+Which books by Kerouac were published by Viking Press?
+"
+qald-3,test,82,"
+Give me a list of all American inventions.
+"
+qald-3,test,83,"
+How high is the Mount Everest?
+"
+qald-3,test,84,"
+Who created the comic Captain America?
+"
+qald-3,test,85,"
+How many people live in the capital of Australia?
+"
+qald-3,test,86,"
+What is the largest city in Australia?
+"
+qald-3,test,87,"
+Who composed the music for Harold and Maude?
+"
+qald-3,test,88,"
+Which films starring Clint Eastwood did he direct himself?
+"
+qald-3,test,89,"
+In which city was the former Dutch queen Juliana buried?
+"
+qald-3,test,90,"
+Where is the residence of the prime minister of Spain?
+"
+qald-3,test,91,"
+Which U.S. state has the abbreviation MN?
+"
+qald-3,test,92,"
+Show me all songs from Bruce Springsteen released between 1980 and 1990.
+"
+qald-3,test,93,"
+Which movies did Kurosawa direct after Rashomon?
+"
+qald-3,test,94,"
+What is the founding year of the brewery that produces Pilsner Urquell?
+"
+qald-3,test,95,"
+Who wrote the lyrics for the Polish national anthem?
+"
+qald-3,test,96,"
+Give me all B-sides of the Ramones. 
+"
+qald-3,test,97,"
+Who painted The Storm on the Sea of Galilee?
+"
+qald-3,test,98,"
+Which country does the creator of Miffy come from?
+"
+qald-3,test,99,"
+For which label did Elvis record his first album?
+"
+qald-3,test,100,"
+Who produces Orangina?
+"
+qald-8,train,1,List all the musicals with music by Elton John.
+qald-8,train,4,Who is the host of the BBC Wildlife Specials?
+qald-8,train,6,In what city is the Heineken brewery?
+qald-8,train,7,When did Operation Overlord commence?
+qald-8,train,9,Who developed Slack?
+qald-8,train,16,Who wrote the book Les Piliers de la terre?
+qald-8,train,18,Who discovered Ceres?
+qald-8,train,20,What is the largest country in the world?
+qald-8,train,21,Who is the mayor of Paris?
+qald-8,train,22,Who is the coach of Ankara's ice hockey team?
+qald-8,train,25,How much did the Lego Movie cost?
+qald-8,train,35,How many people live in Poland?
+qald-8,train,41,Who created Family Guy?
+qald-8,train,43,Who wrote the song Hotel California?
+qald-8,train,45,What is in a chocolate chip cookie?
+qald-8,train,47,Does Neymar play for Real Madrid?
+qald-8,train,50,What does IYCM stand for?
+qald-8,train,60,Who played Gus Fring in Breaking Bad?
+qald-8,train,62,In which ancient empire could you pay with cocoa beans?
+qald-8,train,65,Which electronics companies were founded in Beijing?
+qald-8,train,68,What is the capital of Cameroon?
+qald-8,train,78,What form of government does Russia have?
+qald-8,train,89,Which Indian company has the most employees?
+qald-8,train,93,Is the wife of president Obama called Michelle?
+qald-8,train,95,Who is the president of Eritrea?
+qald-8,train,96,Which films did Stanley Kubrick direct?
+qald-8,train,100,How tall is Claudia Schiffer?
+qald-8,train,103,Who was the successor of John F. Kennedy?
+qald-8,train,104,Who composed the soundtrack for Cameron's Titanic?
+qald-8,train,106,In which time zone is Rome?
+qald-8,train,108,Who are the developers of DBpedia?
+qald-8,train,110,Who is the king of the Netherlands?
+qald-8,train,111,In which city did Nikos Kazantzakis die?
+qald-8,train,116,In which country does the Nile start?
+qald-8,train,118,Which companies produce hovercrafts?
+qald-8,train,119,Did Elvis Presley have children?
+qald-8,train,120,In which countries do people speak Japanese?
+qald-8,train,122,Is Michelle Obama the wife of Barack Obama?
+qald-8,train,125,What was the first Queen album?
+qald-8,train,126,Which television shows were created by Walt Disney?
+qald-8,train,128,What country is Sitecore from?
+qald-8,train,130,Who was Vincent van Gogh inspired by?
+qald-8,train,133,Who wrote the Game of Thrones theme?
+qald-8,train,135,When did Boris Becker end his active career?
+qald-8,train,138,To which party does the mayor of Paris belong?
+qald-8,train,140,Who was the doctoral supervisor of Albert Einstein?
+qald-8,train,141,In which city does Sylvester Stallone live?
+qald-8,train,144,Who is the son of Sonny and Cher?
+qald-8,train,145,In which city are the headquarters of the United Nations?
+qald-8,train,150,Show me Hemingway's autobiography.
+qald-8,train,159,Did Kaurismäki ever win the Grand Prix at Cannes?
+qald-8,train,161,Where is Syngman Rhee buried?
+qald-8,train,165,Show me all books in Asimov's Foundation series.
+qald-8,train,176,What is the biggest stadium in Spain?
+qald-8,train,177,What are the five boroughs of New York?
+qald-8,train,181,Can you find frescoes in Crete?
+qald-8,train,182,Do Urdu and Persian have a common root?
+qald-8,train,183,Does the Ford Motor Company have a manufacturing plant in Malaysia?
+qald-8,train,186,Give me all Seven Wonders of the Ancient World.
+qald-8,train,189,How many states are in Mexico?
+qald-8,train,190,How many theories did Albert Einstein come up with?
+qald-8,train,191,Is horse racing a sport?
+qald-8,train,192,Is Pluto really a planet?
+qald-8,train,193,Was Sigmund Freud married?
+qald-8,train,194,What form of government is found in South Africa?
+qald-8,train,196,What is the longest river in the world?
+qald-8,train,197,Which building after the Burj Khalifa has the most floors?
+qald-8,train,198,What is the wavelength of indigo?
+qald-8,train,200,What were the names of the three ships used by Columbus?
+qald-8,train,203,When was John Adams born?
+qald-8,train,205,Which city has the oldest running metro?
+qald-8,train,206,Which holidays are celebrated around the world?
+qald-8,train,207,Who assassinated President McKinley?
+qald-8,train,208,Who discovered Pluto?
+qald-8,train,210,Who was buried in the Great Pyramid of Giza?
+qald-8,train,211,Who was the first King of England?
+qald-8,train,212,What was the final result of the War of the Roses?
+qald-8,train,213,Who writes the Farmers' Almanac?
+qald-8,train,215,How many people live in Eurasia?
+qald-8,train,216,Give me the runtime of Toy Story.
+qald-8,train,217,What was the first name of the band Queens of the Stone Age?
+qald-8,train,218,Give me the birth place of Frank Sinatra.
+qald-8,train,219,Which university did Angela Merkel attend?
+qald-3,train,1,"
+Give me all female Russian astronauts.
+"
+qald-3,train,2,"
+Give me the birthdays of all actors of the television show Charmed.
+"
+qald-3,train,3,"
+Who is the daughter of Ingrid Bergman married to?
+"
+qald-3,train,6,"
+In which city did John F. Kennedy die?
+"
+qald-3,train,7,"
+Is the wife of president Obama called Michelle?
+"
+qald-3,train,11,"
+Which countries have places with more than two caves?
+"
+qald-3,train,13,"
+Which classis do tree frogs belong to?
+"
+qald-3,train,16,"
+Give me the capitals of all countries in Africa.
+"
+qald-3,train,20,"
+How many employees does IBM have?
+"
+qald-3,train,21,"
+Which states border Illinois?
+"
+qald-3,train,28,"
+Which European countries have a constitutional monarchy?
+"
+qald-3,train,29,"
+Which awards did WikiLeaks win?
+"
+qald-3,train,30,"
+Which state of the USA has the highest population density?
+"
+qald-3,train,37,"
+When did Latvia join the EU?
+"
+qald-3,train,40,"
+What is the highest mountain in Australia?
+"
+qald-3,train,46,"
+Is Frank Herbert still alive?
+"
+qald-3,train,49,"
+Give me all companies in the advertising industry.
+"
+qald-3,train,51,"
+Give me all school types.
+"
+qald-3,train,52,"
+Which presidents were born in 1945?
+"
+qald-3,train,53,"
+Give me all presidents of the United States.
+"
+qald-3,train,54,"
+Who was the wife of U.S. president Lincoln?
+"
+qald-3,train,55,"
+Who developed the video game World of Warcraft?
+"
+qald-3,train,56,"
+What is the official website of Tom Cruise?
+"
+qald-3,train,57,"
+List all episodes of the first season of the HBO television series The Sopranos!
+"
+qald-3,train,58,"
+Who produced the most films?
+"
+qald-3,train,59,"
+Give me all people with first name Jimmy.
+"
+qald-3,train,60,"
+Is there a video game called Battle Chess?
+"
+qald-3,train,61,"
+Which mountains are higher than the Nanga Parbat?
+"
+qald-3,train,62,"
+Who created Wikipedia?
+"
+qald-3,train,63,"
+Give me all actors starring in Last Action Hero.
+"
+qald-3,train,64,"
+Which software has been developed by organizations founded in California?
+"
+qald-3,train,65,"
+Which companies work in the aerospace industry as well as on nuclear reactor technology?
+"
+qald-3,train,66,"
+Is Christian Bale starring in Batman Begins?
+"
+qald-3,train,67,"
+Give me the websites of companies with more than 500000 employees.
+"
+qald-3,train,68,"
+Which actors were born in Germany?
+"
+qald-3,train,69,"
+Which caves have more than 3 entrances?
+"
+qald-3,train,70,"
+Give me all films produced by Hal Roach.
+"
+qald-3,train,71,"
+Give me all video games published by Mean Hamster Software.
+"
+qald-3,train,72,"
+Which languages are spoken in Estonia?
+"
+qald-3,train,73,"
+Who owns Aldi?
+"
+qald-3,train,74,"
+Which capitals in Europe were host cities of the summer olympic games?
+"
+qald-3,train,75,"
+Who has been the 5th president of the United States of America?
+"
+qald-3,train,76,"
+How many films did Hal Roach produce?
+"
+qald-3,train,77,"
+Which music albums contain the song Last Christmas?
+"
+qald-3,train,78,"
+Give me all books written by Danielle Steel.
+"
+qald-3,train,79,"
+Which airports are located in California, USA?
+"
+qald-3,train,80,"
+Give me all Canadian Grunge record labels.
+"
+qald-3,train,81,"
+Which country has the most official languages?
+"
+qald-3,train,82,"
+In which programming language is GIMP written?
+"
+qald-3,train,83,"
+Who produced films starring Natalie Portman?
+"
+qald-3,train,84,"
+Give me all movies with Tom Cruise.
+"
+qald-3,train,85,"
+In which films did Julia Roberts as well as Richard Gere play?
+"
+qald-3,train,86,"
+Give me all female German chancellors.
+"
+qald-3,train,87,"
+Who wrote the book Les Piliers de la terre?
+"
+qald-3,train,88,"
+How many films did Leonardo DiCaprio star in?
+"
+qald-3,train,89,"
+Give me all soccer clubs in the Premier League.
+"
+qald-3,train,90,"
+When was Capcom founded?
+"
+qald-3,train,91,"
+Which organizations were founded in 1950?
+"
+qald-3,train,92,"
+What is the highest mountain?
+"
+qald-3,train,93,"
+Was Natalie Portman born in the United States?
+"
+qald-3,train,94,"
+Which budget did the first movie of Zdenek Sverak have?
+"
+qald-3,train,95,"
+How many big fires struck Paris during the Middle Ages?
+"
+qald-3,train,96,"
+Is Jens Friebe a vegan?
+"
+qald-3,train,97,"
+How often was Michael Jordan divorced?
+"
+qald-3,train,98,"
+What is the most beautiful painting?
+"
+qald-3,train,99,"
+Give me all animal species that live in the Teutoburg Forest.
+"
+qald-3,train,100,"
+When is the movie Worst Case Scenario going to be in cinemas in the Netherlands?
+"
+qald-7,train,43,Is Christian Bale starring in Batman Begins?
+qald-7,train,62,List all episodes of the first season of the HBO television series The Sopranos!
+qald-7,train,106,What color expresses loyalty?
+qald-7,train,190,In which U.S. state is Fort Knox located?
+qald-7,train,199,Does the new Battlestar Galactica series have more episodes than the old one?
+qald-2,train,37,"
+When did Finland join the EU?
+"
+qald-2,train,63,"
+Give me all actors starring in Batman Begins.
+"
+qald-2,train,87,"
+Who wrote the book The pillars of the Earth?
+"
+qald-7,test,7,Give me all American presidents in the last 20 years.
+qald-7,test,28,What were the original 13 British colonies?
+qald-8,test,1,What is the alma mater of the chancellor of Germany Angela Merkel?
+qald-8,test,2,How large is the area of UK?
+qald-8,test,3,Who is the author of the interpretation of dreams?
+qald-8,test,4,What is the birth name of Adele?
+qald-8,test,5,What are the top selling luxury vehicle brands in Germany?
+qald-8,test,7,Who is Dan Jurafsky?
+qald-8,test,8,When will start the final match of the football world cup 2018?
+qald-8,test,10,how much is the elevation of Düsseldorf Airport ?
+qald-8,test,11,how much is the total population of  european union?
+qald-8,test,12,when was the founding date of french fifth republic?
+qald-8,test,13,Who are the founders of  BlaBlaCar?
+qald-8,test,15,how many foreigners speak German?
+qald-8,test,16,Where is the birthplace of Goethe?
+qald-8,test,17,Where is the origin of Carolina reaper?
+qald-8,test,18,How much is the population of Mexico City ?
+qald-8,test,21,What is the percentage of area water in Brazil?
+qald-8,test,22,How much is the population of Iraq?
+qald-8,test,24,What is the population of Cairo?
+qald-8,test,25,How much is the population density rank of Germany?
+qald-8,test,26,What is the relation between Resource Description Framework and Web Ontology Language?
+qald-8,test,27,How large is the total area of North Rhine-Westphalia?
+qald-8,test,28,What is the original title of the interpretation of dreams?
+qald-8,test,30,Who are the writers of the Wall album of Pink Floyd?
+qald-8,test,31,When was the death  of  Shakespeare?
+qald-8,test,32,With how many countries Iran has borders?
+qald-8,test,34,What is the smallest city by area in Germany?
+qald-8,test,35,Which beer brewing comapnies are located in North-Rhine Westphalia?
+qald-8,test,36,What is the largest city in america?
+qald-8,test,37,Who is the current federal minister of finance in Germany?
+qald-8,test,38,What is the highest mountain in the Bavarian Alps?
+qald-8,test,40,Who is 8th president of US?
+qald-8,test,41,Where is the most deep point in the ocean?
+qald-8,test,42,In which state Penn State University is located?
+qald-8,test,43,Which species does an elephant belong?
+qald-8,test,44,What is Donald Trump's main business?
+qald-8,test,45,What is the last work of Dan Brown?
+qald-8,test,46,What other books have been written by the author of The Fault in Our Stars?
+qald-8,test,47,When was the last episode of the TV series Friends aired?
+qald-1,train,1,"
+Who are the presidents of the United States?
+"
+qald-1,train,10,"
+Who was the wife of President Lincoln?
+"
+qald-1,train,29,"
+What is the official website of Tom Hanks?
+"
+qald-1,train,8,"
+Which people have as their given name Jimmy?
+"
+qald-1,train,27,"
+Who created English Wikipedia?
+"
+qald-1,train,20,"
+Which country does the Airedale Terrier come from?
+"
+qald-1,train,22,"
+Which birds are there in the United States?
+"
+qald-1,train,46,"
+Give me all European Capitals!
+"
+qald-1,train,13,"
+Which cities have more than 2 million inhabitants?
+"
+qald-1,train,4,"
+Who was Tom Hanks married to?
+"
+qald-1,train,26,"
+When was DBpedia released?
+"
+qald-1,train,5,"
+Which people were born in Heraklion?
+"
+qald-1,train,42,"
+Which software has been published by Mean Hamster Software?
+"
+qald-1,train,18,"
+What languages are spoken in Estonia?
+"
+qald-1,train,19,"
+Who is called Dana?
+"
+qald-1,train,38,"
+Which books were written by Danielle Steel?
+"
+qald-1,train,28,"
+Which companies are located in California, USA?
+"
+qald-1,train,25,"
+Which genre does DBpedia belong to?
+"
+qald-1,train,36,"
+Give me all movies with Tom Cruise!
+"
+qald-1,train,3,"
+Give me all female German chancellors!
+"
+qald-1,train,47,"
+Is Natalie Portman an actress?
+"
+qald-2,test,22,"
+Who is the governor of Texas?
+"
+qald-2,test,23,"
+Do Harry and William, Princes of Wales, have the same mother?
+"
+qald-2,test,35,"
+Who developed Skype?
+"
+qald-2,test,40,"
+List all boardgames by GMT.
+"
+qald-2,test,72,"
+In which U.S. state is Area 51 located?
+"
+qald-2,test,91,"
+Which U.S. State has the abbreviation MN?
+"
+qald-2,test,93,"
+Which movies did Sam Raimi direct after Army of Darkness?
+"
+qald-4,train,123,Do Prince Harry and Prince William have the same mother?
+qald-4,train,127,Sean Parnell is the governor of which U.S. state?
+qald-4,train,149,Which other weapons did the designer of the Uzi develop?
+qald-4,train,161,How many space missions have there been?
+qald-4,train,163,Give me all Danish films.
+qald-4,train,184,Who created the comic Captain America?
+qald-4,train,193,Which movies did Kurosawa direct after Rashomon?
+qald-4,train,29,Which awards did WikiLeaks win?
+qald-4,train,3,Who is the daughter of Ingrid Bergman married to?
+qald-4,train,35,Who is the owner of Universal Studios?
+qald-4,train,38,Which monarchs were married to a German?
+qald-4,train,75,Who was the first president of the United States?
+qald-4,train,90,When was Capcom founded?
+qald-4,train,96,Is Jens Friebe a vegan?
+qald-4,train,99,Give me all animal species that live in the Teutoburg Forest.
+qald-6,test,8,How many movies did Park Chan-wook direct?
+qald-6,test,11,What is the name of the school where Obama's wife studied?
+qald-6,test,19,Who is the most powerful Jedi?
+qald-6,test,20,How many goals did Pelé score?
+qald-6,test,29,Show me all basketball players that are higher than 2 meters.
+qald-6,test,39,Which movies star both Liz Taylor and Richard Burton?
+qald-6,test,42,Which writers studied in Istanbul?
+qald-6,test,44,What is the full name of Prince Charles?
+qald-6,test,48,What do ants eat?
+qald-6,test,53,Give me a list of all Canadians that reside in the U.S.
+qald-6,test,57,When did the Dodo become extinct?
+qald-6,test,61,Where do the Red Sox play?
+qald-6,test,65,What was the original occupation of the inventor of Lego?
+qald-6,test,67,Show me all U.S. states.
+qald-6,test,70,Can you cry underwater?
+qald-6,test,77,When was Coca Cola invented?
+qald-6,test,79,On which day is Columbus Day?
+qald-6,test,83,What movies does Jesse Eisenberg play in?
+qald-6,test,85,Show me all museums in London.
+qald-6,test,86,Give me all South American countries.
+qald-6,test,91,What kind of music did Lou Reed play?
+qald-6,test,95,What are the zodiac signs?
+qald-6,test,96,What languages do they speak in Pakistan?
+qald-9,train,1,List all boardgames by GMT.
+qald-9,train,2,Who developed Skype?
+qald-9,train,3,Which people were born in Heraklion?
+qald-9,train,4,In which U.S. state is Area 51 located?
+qald-9,train,5,Who is the mayor of New York City?
+qald-9,train,8,Which airports does Air China serve?
+qald-9,train,9,Give me all actors starring in movies directed by and starring William Shatner.
+qald-9,train,10,What are the official languages of the Philippines?
+qald-9,train,13,Give me the grandchildren of Bruce Lee.
+qald-9,train,16,Which state of the USA has the highest population density?
+qald-9,train,18,Which organizations were founded in 1950?
+qald-9,train,20,Give me the Apollo 14 astronauts.
+qald-9,train,21,Who wrote the book The pillars of the Earth?
+qald-9,train,22,Which state of the United States of America has the highest density?
+qald-9,train,23,Which spaceflights were launched from Baikonur?
+qald-9,train,24,Give me a list of all trumpet players that were bandleaders.
+qald-9,train,25,Which U.S. states are in the same timezone as Utah?
+qald-9,train,26,Which U.S. states possess gold minerals?
+qald-9,train,28,How deep is Lake Placid?
+qald-9,train,201,What is the highest mountain in Saxony Germany?
+qald-9,train,217,How much is the population of mexico city ?
+qald-9,train,237,Where is Sungkyunkwan University?
+qald-9,train,278,how big is the total area of North Rhine- Westphalia?
+qald-9,train,283,how much is the population  Iraq?
+qald-9,train,288,how much is the population densty rank of germany?
+qald-9,train,305,Which holidays are celebrated around the world? test2
+qald-4,test,14,What is the most frequent death cause?
+qald-4,test,48,What does CPU stand for?
+qald-5,train,301,Who was vice president under the president who authorized atomic weapons against Japan during World War II?
+qald-5,train,302,In which town was the assassin of Martin Luther King born?
+qald-5,train,303,Which anti-apartheid activist was born in Mvezo?
+qald-5,train,304,How many Golden Globe awards did the daughter of Henry Fonda win?
+qald-5,train,305,Which recipients of the Victoria Cross died in the Battle of Arnhem?
+qald-5,train,306,Where did the first man in space die?
+qald-5,train,307,How old was Steve Jobs' sister when she first met him?
+qald-5,train,308,Which members of the Wu-Tang Clan took their stage name from a movie?
+qald-5,train,309,Which writers had influenced the philosopher that refused a Nobel Prize?
+qald-5,train,310,Under which king did the British prime minister that signed the Munich agreement serve?
+qald-5,train,311,Who composed the music for the film that depicts the early life of Jane Austin?
+qald-5,train,312,Who succeeded the pope that reigned only 33 days?
+qald-5,train,313,On which island did the national poet of Greece die?
+qald-5,train,314,Which horses did The Long Fellow ride?
+qald-5,train,315,"Of the people that died of radiation in Los Alamos, whose death was an accident?"
+qald-5,train,316,Which building owned by the Bank of America was featured in the TV series MegaStructures?
+qald-5,train,317,"Which buildings in art deco style did Shreve, Lamb and Harmon design?"
+qald-5,train,318,Which birds are protected under the National Parks and Wildlife Act?
+qald-5,train,319,Which country did the first known photographer of snowflakes come from?
+qald-5,train,320,List all the battles commanded by the lover of Cleopatra.
+qald-5,train,321,Are the Rosetta Stone and the Gayer-Andersen cat exhibited in the same museum?
+qald-5,train,322,Which actress starring in the TV series Friends owns the production company Coquette Productions?
+qald-5,train,323,Gaborone is the capital of which country member of the African Union?
+qald-5,train,324,When was the composer of the opera Madame Butterfly born?
+qald-5,train,325,Which street basketball player was diagnosed with Sarcoidosis?
+qald-5,train,326,For which movie did the daughter of Francis Ford Coppola receive an Oscar?
+qald-5,train,327,Which city does the first person to climb all 14 eight-thousanders come from?
+qald-5,train,328,At which college did the only American actor that received the César Award study?
+qald-5,train,329,Did Napoleon's first wife die in France?
+qald-5,train,330,How old is James Bond in the latest Bond book by William Boyd?
+qald-5,train,331,What eating disorder is characterized by an appetite for substances such as clay and sand?
+qald-5,train,332,What is the native city of Hollywood's highest-paid actress?
+qald-5,train,333,In which city does the former main presenter of the Xposé girls live?
+qald-5,train,334,Who plays Phileas Fogg in the adaptation of Around the World in 80 Days directed by Buzz Kulik?
+qald-5,train,335,Who is the front man of the band that wrote Coffee & TV?
+qald-5,train,336,Which Chinese-speaking country is a former Portguese colony?
+qald-5,train,337,What is the largest city in the county in which Faulkner spent most of his life?
+qald-5,train,338,"In which year did the Hungarian-American actor called ""The King of Horror"" make his first film?"
+qald-5,train,339,Under which pseudonym did Charles Dickens publish some of his books?
+qald-5,train,340,A landmark of which city is the home of the Mona Lisa?

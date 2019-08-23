@@ -18,6 +18,7 @@ category_df = pd.DataFrame(columns=["qald_version", "split", "question_id", "sen
 pattern_json = re.compile(r"^qald.*\.json$")
 pattern_xml = re.compile(r"^qald.*\.xml$")
 
+lines_seen = set()
 
 for file in my_files:
 	if re.match(pattern_json, file):
@@ -29,10 +30,12 @@ for file in my_files:
 		for item_obj in dict_multilingual_question["questions"]:
 			for lang_obj in item_obj["question"]:
 				if lang_obj["language"] == "en":
-					category_df=category_df.append({'qald_version': qald_version, 'split': split, 'question_id': item_obj["id"],
+					if lang_obj["string"] not in lines_seen:
+						category_df=category_df.append({'qald_version': qald_version, 'split': split, 'question_id': item_obj["id"],
 													'sentence_en': lang_obj["string"]}, ignore_index=True).fillna("tbd")
+						lines_seen.add(lang_obj["string"])
 
-	if re.match(pattern_xml, file):
+	elif re.match(pattern_xml, file):
 		competition_name = os.path.splitext(file)[0]
 		qald_version = re.split('-|_', competition_name)
 		for split_type in qald_version[2:]:
@@ -50,13 +53,18 @@ for file in my_files:
 		for question in root:
 			if (len(question.findall("string")) ==1):
 				for lang_obj in question.findall("string"):
-					category_df = category_df.append({'qald_version': qald_version, 'split': split, 'question_id': question.get('id'),
+					if lang_obj.text not in lines_seen:
+						category_df = category_df.append({'qald_version': qald_version, 'split': split, 'question_id': question.get('id'),
 					 'sentence_en': lang_obj.text}, ignore_index=True).fillna("tbd")
+						lines_seen.add(lang_obj.text)
+
 			else:
 				for lang_obj in question.findall("string"):
 					if lang_obj.get('lang') == "en":
-						category_df=category_df.append({'qald_version': qald_version, 'split': split, 'question_id': question.get('id'),
+						if lang_obj.text not in lines_seen:
+							category_df=category_df.append({'qald_version': qald_version, 'split': split, 'question_id': question.get('id'),
 													'sentence_en': lang_obj.text}, ignore_index=True).fillna("tbd")
+							lines_seen.add(lang_obj.text)
 
 category_df.to_csv(os.path.join(curr_dir, "qald_combined.csv"), index=False)
 # category_df.to_csv(os.path.join(curr_dir, "qald_combined_xml.csv"), index=False)
