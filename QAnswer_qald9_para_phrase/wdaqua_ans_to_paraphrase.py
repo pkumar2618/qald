@@ -86,9 +86,12 @@ for file in my_files:
 			# compare weather the answer matches with the original answer
 			if ori_answer_uri == "key exception" or pp1_answer_uri == "key exception":
 				para_phrases.at[index_number, 'pp1_ori_match'] = "key exception"
-			# elif ori_answer_uri.isspace() or pp1_answer_uri.isspace():
-			elif ori_answer_uri is None or pp1_answer_uri is None:
+			elif ori_answer_uri is None and  pp1_answer_uri is None:
 				para_phrases.at[index_number, 'pp1_ori_match'] = "returned no answer"
+			elif ori_answer_uri is not None and pp1_answer_uri is None:
+				para_phrases.at[index_number, 'pp1_ori_match'] = 0
+			elif ori_answer_uri is None and pp1_answer_uri is not None:
+				para_phrases.at[index_number, 'pp1_ori_match'] = 0
 			elif ori_answer_uri == pp1_answer_uri:
 				para_phrases.at[index_number, 'pp1_ori_match'] = 1
 			else:
@@ -96,9 +99,12 @@ for file in my_files:
 
 			if ori_answer_uri == "key exception" or pp2_answer_uri == "key exception":
 				para_phrases.at[index_number, 'pp2_ori_match'] = "key exception"
-			elif ori_answer_uri is None or pp2_answer_uri is None:
-			# elif ori_answer_uri.isspace() or pp2_answer_uri.isspace():
+			elif ori_answer_uri is None and pp2_answer_uri is None:
 				para_phrases.at[index_number, 'pp2_ori_match'] = "returned no answer"
+			elif ori_answer_uri is not None and pp2_answer_uri is None:
+				para_phrases.at[index_number, 'pp2_ori_match'] = 0
+			elif ori_answer_uri is None and pp2_answer_uri is not None:
+				para_phrases.at[index_number, 'pp2_ori_match'] = 0
 			elif ori_answer_uri == pp2_answer_uri:
 				para_phrases.at[index_number, 'pp2_ori_match'] = 1
 			else:
