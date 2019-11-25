@@ -14,7 +14,7 @@ creating pandas dataframe with qald_version, qald id, sentence,
 """
 curr_dir = os.getcwd()
 my_files = os.listdir(curr_dir)
-category_df = pd.DataFrame(columns=["qald_version", "split", "question_id", "sentence_en"])
+category_df = pd.DataFrame(columns=["qald_version", "split", "question_id", "sentence_en", "query"])
 pattern_json = re.compile(r"^qald.*\.json$")
 pattern_xml = re.compile(r"^qald.*\.xml$")
 
@@ -32,7 +32,7 @@ for file in my_files:
 				if lang_obj["language"] == "en":
 					if lang_obj["string"] not in lines_seen:
 						category_df=category_df.append({'qald_version': qald_version, 'split': split, 'question_id': item_obj["id"],
-													'sentence_en': lang_obj["string"]}, ignore_index=True).fillna("tbd")
+													'sentence_en': lang_obj["string"], 'query': item_obj["query"]}, ignore_index=True).fillna("tbd")
 						lines_seen.add(lang_obj["string"])
 
 	elif re.match(pattern_xml, file):
@@ -54,23 +54,25 @@ for file in my_files:
 			if (len(question.findall("string")) ==1):
 				for lang_obj in question.findall("string"):
 					if lang_obj.text not in lines_seen:
-						category_df = category_df.append({'qald_version': qald_version, 'split': split, 'question_id': question.get('id'),
-					 'sentence_en': lang_obj.text}, ignore_index=True).fillna("tbd")
+						query = question.find("query")
+						category_df = category_df.append({'qald_version':qald_version, 'split':split,
+														  'question_id':question.get('id'), 'sentence_en':lang_obj.text,
+														  'query':query.text if query is not None else " "}, ignore_index=True).fillna("tbd")
 						lines_seen.add(lang_obj.text)
 
-			else:
+			else: ## multilingual dataset
 				for lang_obj in question.findall("string"):
 					if lang_obj.get('lang') == "en":
 						if lang_obj.text not in lines_seen:
+							query = question.find("query")
 							category_df=category_df.append({'qald_version': qald_version, 'split': split, 'question_id': question.get('id'),
-													'sentence_en': lang_obj.text}, ignore_index=True).fillna("tbd")
+													'sentence_en': lang_obj.text, 'query':query.text if query is not None else " "}, ignore_index=True).fillna("tbd")
 							lines_seen.add(lang_obj.text)
 
-category_df.to_csv(os.path.join(curr_dir, "qald_combined.csv"), index=False)
+category_df.to_csv(os.path.join(curr_dir, "qald_combined_with_query.csv"), index=False)
 # category_df.to_csv(os.path.join(curr_dir, "qald_combined_xml.csv"), index=False)
 # print(category_df)
 # # pickle_handle = open("pickle_df_train_raw", "wb")
 # pickle_handle = open("pickle_df_test_raw", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
-
