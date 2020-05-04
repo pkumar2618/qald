@@ -69,10 +69,20 @@ for file in my_files:
 													'sentence_en': lang_obj.text, 'query':query.text if query is not None else " "}, ignore_index=True).fillna("tbd")
 							lines_seen.add(lang_obj.text)
 
-category_df.to_csv(os.path.join(curr_dir, "qald_combined_with_query.csv"), index=False)
+# category_df.to_csv(os.path.join(curr_dir, "qald_combined_with_query.csv"), index=False)
 # category_df.to_csv(os.path.join(curr_dir, "qald_combined_xml.csv"), index=False)
 # print(category_df)
 # # pickle_handle = open("pickle_df_train_raw", "wb")
 # pickle_handle = open("pickle_df_test_raw", "wb")
 # pickle.dump(category_df, pickle_handle)
 # pickle_handle.close()
+## creating a json file with question and query as well as other matadata on qald competion and split
+import json
+json_dict = []
+with open(os.path.join(curr_dir, "qald_combined.json"), 'w') as f_handle:
+    for i, row in category_df.iterrows():
+        json_item = {'question': row['sentence_en'], 'query': row['query'], 'qald_version': row['qald_version'], 'split': row['split'], 'question_id':row['question_id']} 
+        json_dict.append(json_item)
+    
+    json.dump(json_dict, f_handle, indent=4)
+
